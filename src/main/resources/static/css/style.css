@@ -1,0 +1,16 @@
+:root { --brand: #1f5c99; }
+body { background: #f4f7fb; }
+.navbar-brand, .text-brand { color: var(--brand) !important; font-weight: 700; }
+.btn-brand { background: var(--brand); color: #fff; border: 0; }
+.btn-brand:hover { background: #17497a; color: #fff; }
+.hero { background: linear-gradient(135deg, #1f5c99, #3b8bd6); color: #fff; padding: 56px 0; }
+.job-card { border: 0; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,.06); transition: transform .15s; }
+.job-card:hover { transform: translateY(-3px); }
+.badge-soft { background: #e8f1fb; color: var(--brand); font-weight: 500; }
+.admin-nav .nav-link { color: #333; border-radius: 8px; }
+.admin-nav .nav-link.active { background: var(--brand); color: #fff; }
+.stat-card { border: 0; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+.stat-card .num { font-size: 2rem; font-weight: 700; color: var(--brand); }
+.login-box { max-width: 380px; margin: 12vh auto; }
+.table td, .table th { vertical-align: middle; }
+.cover { max-width: 260px; white-space: pre-wrap; font-size: .85rem; }
